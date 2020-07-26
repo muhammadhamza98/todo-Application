@@ -1,0 +1,81 @@
+.top,.header{
+    text-align: center;
+}
+input[type=text]{
+    width: 420px;
+    border: 2px 5px 2px solid black;
+    border-radius: 4px;
+    margin: 8px 0; 
+    outline: none;
+    padding: 18px;
+    box-sizing: border-box ;
+    text-align: center;
+
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+} 
+#delete:hover{
+    background-color: yellow;
+    transition: .2s;
+    color: black;
+}
+#add:hover{
+    background-color: yellow;
+    transition: .2s;  
+    color: black;
+}
+#add,#delete{
+    width: 120px;
+    border: 2px 5px 2px solid black;
+    border-radius: 20px;
+    margin: 8px 0; 
+    outline: none;
+    padding: 15px;
+    box-sizing: border-box ;
+    color: #f9f9f9;
+    background-color: dodgerblue;
+
+}
+.header{
+    background-color: slategray;
+    font-size: 14px;
+    color: coral;
+}
+.header2{
+    background-color: #f9f9f9;
+    height: auto;
+    width: auto;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+} 
+body{
+    background: url(clock2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0;
+  }
+#list{
+    font-size: 30px;
+    text-align: center;
+   color: #f7f8fa;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   outline: 1.5px solid black;
+}
+.btn{
+    width: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 8px 0; 
+    outline: none;
+    padding: 12px;
+    box-sizing: border-box ;
+    color: #f9f9f9;
+    background-color: #45b6fe;
+    margin-left: 1em;
+
+}
